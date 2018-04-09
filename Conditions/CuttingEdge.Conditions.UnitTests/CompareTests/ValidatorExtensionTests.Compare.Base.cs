@@ -1,4 +1,4 @@
-﻿#region Copyright (c) 2009 S. van Deursen
+#region Copyright (c) 2009 S. van Deursen
 /* The CuttingEdge.Conditions library enables developers to validate pre- and postconditions in a fluent 
  * manner.
  * 
