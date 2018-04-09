@@ -1,4 +1,6 @@
-## WARNING: This project is not actively maintained.
+# WARNING: This project is not actively maintained. 
+
+It is however netstandard2 and 'works on my machine'
 
 
 # Welcome to CuttingEdge.Conditions
