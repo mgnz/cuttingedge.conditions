@@ -1,7 +1,17 @@
-# WARNING: This project is not actively maintained. 
+# WARNING: This project is somewhat actively maintained
 
 It is however netstandard2 and 'works on my machine'
 
+## Plans for the future
+
+* Nuget the thing
+* Integrate logging (Microsoft.Extensions.Logging : https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger?view=aspnetcore-2.1) 
+  ``` c#
+    Condition.Requires(id, nameof(id)).IsNotNull().AsWarning()  
+  ```
+  Would log a warning to the logging pipeline; you would plug your own logging infrastructure into it to send it somewhere usefull.
+  Likely be done inside an 'extension' library/package
+* CI/CD auto build/test and publish
 
 # Welcome to CuttingEdge.Conditions
 CuttingEdge.Conditions is a library that helps developers to write pre- and postcondition validations in their C# 3.0 and VB.NET 9.0 code base. Writing these validations is easy and it improves the readability and maintainability of code.
