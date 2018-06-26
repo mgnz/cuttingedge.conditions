@@ -12,7 +12,13 @@ It is however netstandard2 and 'works on my machine'
   Would log a warning to the logging pipeline; you would plug your own logging infrastructure into it to send it somewhere usefull.
   Likely be done inside an 'extension' library/package
 * CI/CD auto build/test and publish
-
+* Mabye also
+  ``` c#
+    Condition.Requires(id, nameof(id)).IsNotNull().Throws<MyAwesomeException>()  
+  ```
+  Exception would have to have standard exception constructor (message[, inner])
+  
+  
 # Welcome to CuttingEdge.Conditions
 CuttingEdge.Conditions is a library that helps developers to write pre- and postcondition validations in their C# 3.0 and VB.NET 9.0 code base. Writing these validations is easy and it improves the readability and maintainability of code.
 ## Overview
